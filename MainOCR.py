@@ -31,8 +31,7 @@ def start():
     capture = cam.get_image()
 
     # Display the picture
-    catSurfaceObj = capture
-    windowSurfaceObj.blit(catSurfaceObj, (0, 0))
+    windowSurfaceObj.blit(capture, (0, 0))
     pygame.display.update()
 
     # Save picture
