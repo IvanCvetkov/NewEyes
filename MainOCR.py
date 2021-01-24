@@ -139,4 +139,3 @@ if __name__ == "__main__":
     finally:
         pygame.quit()
         sys.exit()
-        
