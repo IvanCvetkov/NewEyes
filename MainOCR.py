@@ -43,7 +43,7 @@ def start():
     cam.stop()
 
     #image = np.asarray(imageUrl)
-    image = cv2.imread('testgoodimage.jpg')
+    image = cv2.imread('picture.jpg')
     image = cv2.resize(image, None, fx=0.6, fy=0.9)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     adaptive_threshold = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 85, 11)
@@ -53,14 +53,7 @@ def start():
     language = "en"
     config = '-l eng --oem 1 --psm 3'
     text = pytesseract.image_to_string(adaptive_threshold, config=config, lang=language)
-
-    def listToString(s):  
-        
-        # initialize an empty string 
-        str1 = " " 
-        
-        # return string   
-        return (str1.join(s))
+    
     
     # Delete the useless characters | Abbreviations
     text = text.strip()
@@ -139,3 +132,6 @@ if __name__ == "__main__":
     finally:
         pygame.quit()
         sys.exit()
+
+
+
