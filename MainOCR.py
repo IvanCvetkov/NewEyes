@@ -58,7 +58,7 @@ def start():
     # Delete the useless characters | Abbreviations
     text = text.strip()
     text = text.replace("\n", " ")
-    print(result)
+    print(text)
 
     # Write the recognized text to the text_result.txt
     #result = str(text)
