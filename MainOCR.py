@@ -1,4 +1,5 @@
 from pygame.locals import *
+from SupportMethods import *
 from subprocess import call
 from gpiozero import Button
 from signal import pause
@@ -11,6 +12,7 @@ import pyttsx3
 import time
 import cv2
 import os
+
 #import wordninja
 
 
