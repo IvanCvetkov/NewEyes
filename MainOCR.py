@@ -47,8 +47,9 @@ def start():
     #image = np.asarray(imageUrl)
     image = cv2.imread('picture.jpg')
     #image = cv2.resize(image, None, fx=0.6, fy=0.9)
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    adaptive_threshold = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 85, 11)
+    median = cv2.medianBlur(image, 9)
+    gray = cv2.cvtColor(median, cv2.COLOR_BGR2GRAY)
+    adaptive_threshold = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY_INV, 87, 13)
 
 
     #config = "--psm 1", r'--oem 3 --psm 6'
@@ -59,6 +60,8 @@ def start():
     
     # Delete the useless characters | Abbreviations
     text = text.strip()
+    text = text.replace("©", "")
+    text = text.replace("|", "I")
     text = text.replace("\n", " ")
     print(text)
 
