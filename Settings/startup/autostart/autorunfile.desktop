@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=<GUI Controller>
+Comment=
+Exec= python3 /home/pi/main.py
+StartupNotify=false
+Terminal=true
+Hidden=false
