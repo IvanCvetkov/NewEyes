@@ -1,24 +1,27 @@
 # NewEyes - Smart glasses for blind people :eyeglasses:
 :pushpin: Smart glasses, comprised of a processing unit, a pair of glasses and
 a high quality 16Mpx camera. The target group of the product are blind people
-and visually impaired people. <br />
+and visually impaired people. <br/>
 :pushpin: The gadget is controlled by buttons, voice commands and hand gestures 
 with which the user can easily activate the different functionalities
 without almost any effort.
+<br/><br/> 
 
 # Share your opinion! :trophy:
 Give a :star: if you like the project! 
+<br/> 
+<br/> 
 
 # License :scroll:
 This project is licensed under the MIT License - Check out the 
 <a href="https://github.com/IvanCvetkov/NewEyes/blob/main/LICENSE">LICENSE</a> for more details.
-
+<br/><br/> 
 
 # Author :nerd_face:
 
-Ivan Cvetkov <br /> 
+Ivan Cvetkov <br/> 
 &emsp;• Username: gonogo, E-mail: i.tsvetkovbg@gmail.com
-
+<br/><br/> 
 
 # Examples :round_pushpin:
 
@@ -30,6 +33,7 @@ Ivan Cvetkov <br />
   <img src="Snapshots/Examples/case1.png" width="400" height="250" />
   <img src="Snapshots/Examples/case2.png" width="400" height="250" /> 
 </p>
+<br/><br/> 
 
 ## Product Design
 
@@ -37,12 +41,11 @@ Ivan Cvetkov <br />
   <img src="Snapshots/Examples/product_1.png" width="350" height="420" />
   <img src="Snapshots/Examples/product_2.png" width="350" height="420" /> 
 </p>
+<br/><br/> 
 
-## Text reading in bulgarian and english <br/>
+# Text reading in bulgarian and english <br/>
 (Disclaimer: The orientation of the text is of no importance, the software
 detects the wrong orientation and aligns the text properly)
-
-<br/><br/>
 
 ## Printed Text Reading
 <img src="Snapshots/Examples/dark_places.png" width="600" height="750">
