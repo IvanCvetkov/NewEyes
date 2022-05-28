@@ -1,7 +1,7 @@
 # NewEyes - Smart glasses for blind people :eyeglasses:
 :pushpin: Smart glasses, comprised of a processing unit, a pair of glasses and
-a high quality 16Mpx camera. The target group of the product are blind people
-and visually impaired people. <br/>
+a high quality 16Mpx camera. The target group of the product are the blind and 
+visually impaired people. <br/>
 :pushpin: The gadget is controlled by buttons, voice commands and hand gestures 
 with which the user can easily activate the different functionalities
 without almost any effort.
