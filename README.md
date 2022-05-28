@@ -30,8 +30,8 @@ Ivan Cvetkov <br/>
 <img src="Snapshots/Examples/glasses.png" width="900" height="380">
 
 <p float="left">
-  <img src="Snapshots/Examples/case1.png" width="440" height="200" />
-  <img src="Snapshots/Examples/case2.png" width="440" height="200" /> 
+  <img src="Snapshots/Examples/case1.png" width="430" height="200" />
+  <img src="Snapshots/Examples/case2.png" width="430" height="200" /> 
 </p>
 <br/><br/> 
 
