@@ -1,14 +1,20 @@
-# NewEyes - Умни очила за незрящи хора
+# NewEyes - Smart glasses for blind people
+Smart glasses, comprised of a processing unit, a pair of glasses and
+a high quality 16Mpx camera. The target group of the product are blind people
+and visually impaired people. <br />
+The gadget is controlled by buttons, voice commands and hand gestures 
+with which the user can easily activate the different functionalities
+without almost any effort.
 
 
 
-# Автор
+# Author
 
-Иван Цветков - разработил проекта <br />
+Ivan Cvetkov <br />
 &emsp;• Username: gonogo, E-mail: i.tsvetkovbg@gmail.com
 
 
-# Примери
+# Examples
 
 ## Screenshots
 
@@ -19,20 +25,20 @@
   <img src="Snapshots/Examples/case2.png" width="400" height="250" /> 
 </p>
 
-## Готов продукт
+## Product Design
 
 <p float="left">
   <img src="Snapshots/Examples/product_1.png" width="350" height="420" />
   <img src="Snapshots/Examples/product_2.png" width="350" height="420" /> 
 </p>
 
-## Четене на текст от Български и Английски език <br/>
-(Допълнение: Ориентацията на снимките не е от значение, софтуера 
-засича неправилната ориентация и изправя или обръща снимката)
+## Text reading in bulgarian and english <br/>
+(Disclaimer: The orientation of the text is of no importance, the software
+detects the wrong orientation and aligns the text properly)
 
 <br/><br/>
 
-## Четене на печатен текст  
+## Printed Text Reading
 <img src="Snapshots/Examples/dark_places.png" width="600" height="750">
 <img src="Snapshots/Examples/dark_places_result.png" width="600" height="250">
 
@@ -44,14 +50,14 @@
 
 <br/><br/>
 
-## Пример за справяне с неправилната ориентация на текста
+## Example of fixing wrong text orientation
 <img src="Snapshots/Examples/harry_potter.jfif" width="600" height="750">
 <img src="Snapshots/Examples/harry_potter_flipped.jpg" width="600" height="750">
 <img src="Snapshots/Examples/harry_potter_result.png" width="600" height="250">
 
 <br/><br/>
 
-## Четене на текст в необичайна среда
+## Text reading in an unusual environment
 <img src="Snapshots/Examples/the_corner_shop.png" width="600" height="350">
 <img src="Snapshots/Examples/the_corner_shop_result.png" width="600" height="350">
 <img src="Snapshots/Examples/sign_input.png" width="400" height="300">
@@ -59,17 +65,19 @@
 
 <br/><br/>
 
-## Сканиране на касови бележки
+## Receipt scanning
 <img src="Snapshots/Examples/receipt_1.png" width="750" height="750">
 <img src="Snapshots/Examples/receipt_2.png" width="750" height="750">
 <img src="Snapshots/Examples/receipt_3.png" width="750" height="750">
 
 <br/><br/><br/><br/><br/><br/>
 
-## Разпознаване на обекти и тяхната позиция в пространството
-Съответно, след цялостната обработка, разпознаването на обектите и превода на български език,
-през говорителите на устройството или през свързаните към устройството слушалки, 
-съответното съобщение се изговаря през говорителите или през слушалките в ухото на незрящия човек.
+## Object recognition and their position (left, right, up, down)
+After the processing stage, the recognition of the object and the translation to bulgarian language (if necessary) 
+are completed, the device speaks out the contents of the image (objects and their position in 3D space) through
+the embedded in the glasses's frame speakers, or through connected to the device headphones.
+This way the blind person can receive valuable key information about the surrounding environment and help him with
+orientation in one such unusual environment.  
 
 <br/>
 
@@ -82,31 +90,36 @@
 
 <br/><br/><br/><br/><br/><br/>
 
-## Интерактивна помощ от друг човек чрез камерата на очилата 
+## Interactive help from another person (Acquaintance/Friend/Family) through the camera  
 
-Опцията представлява видеочат, чрез който незрящият бива  
-навигиран от друг човек (познат/приятел/роднина), като връзката
-се осъществява посредством платформата за видео чат Duo 
+The functionality is comprised of a videochat, through which
+the blind person is navigated by another person, who is remotely
+accessing the glasses's camera. That way, the blind person
+could easily do tasks that otherwise require the navigator/assistant
+being there physically, which is not always possible.
+The remote connection and videochat uses the platform Duo, which
+offers simple call by number functionality, making the functionality
+much easier to use.
 
 <img src="Snapshots/Examples/duo_example.jpg" width="450" height="730">
 
 
 <br/><br/><br/><br/><br/><br/>
 
-## Разпознаване на главен цвят от снимка
+## Color Recognition in bulgarian
 https://user-images.githubusercontent.com/97058791/152701536-6b37c342-0eb0-4af8-9801-c10c8d0b1d24.mp4
 
 
 <br/><br/><br/><br/><br/><br/>
 
 
-## Разпознаване на баркод и QR код
+## Barcode & QR code scanner 
 <img src="Snapshots/Examples/qr_code_example.png" width="750" height="750">
 
 
 <br/><br/><br/><br/><br/><br/>
 
 
-## Отличия
+## Awards
 <img src="Contests/Awards/innovations_award.png">
 <img src="Contests/Awards/IvanTsvetkov-DarkMode.png">
