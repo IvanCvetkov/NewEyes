@@ -5,7 +5,7 @@ visually impaired people. <br/>
 :pushpin: The gadget is controlled by buttons, voice commands and hand gestures 
 with which the user can easily activate the different functionalities
 without almost any effort.
-<br/><br/> 
+<br/><br/>    
 
 # Share your opinion! :trophy:
 Give a :star: if you like the project! 
@@ -29,9 +29,9 @@ Ivan Cvetkov <br/>
 
 <img src="Snapshots/Examples/glasses.png" width="900" height="380">
 
-<p float="left">
-  <img src="Snapshots/Examples/case1.png" width="400" height="250" />
-  <img src="Snapshots/Examples/case2.png" width="400" height="250" /> 
+<p float="none">
+  <img src="Snapshots/Examples/case1.png" width="450" height="200" />
+  <img src="Snapshots/Examples/case2.png" width="450" height="200" /> 
 </p>
 <br/><br/> 
 
